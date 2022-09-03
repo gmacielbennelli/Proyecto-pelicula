@@ -1,0 +1,37 @@
+.seccion-carta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+
+h1 {
+
+font-size: 50px;
+}
+
+.input-boton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 5px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 2px solid salmon;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+   
+
+input[type=submit]:hover {
+    background-color: #45a049;
+  }
