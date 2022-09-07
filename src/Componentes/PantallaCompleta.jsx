@@ -10,8 +10,8 @@ const PantallaCompleta = (props) => {
   };
   const filtrarPorNombre = (e) => {
     setLista(
-      [...props.peliculas].filter((x) => {
-        return x.titulo.toLowerCase().includes(e.target.value.toLowerCase());
+      [...props.peliculas].filter((y) => {
+        return y.titulo.toLowerCase().includes(e.target.value.toLowerCase());
       })
     );
   };
